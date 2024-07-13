@@ -5,7 +5,9 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
+
 root.render(
+  // give warning using <React.StrictMode
   <React.StrictMode>
     <App />
   </React.StrictMode>
