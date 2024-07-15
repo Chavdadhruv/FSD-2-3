@@ -3,13 +3,13 @@
 // import Image from "./Image.js"
 // import example1 from "./ex1.js"
 // import Props1 from './Props1.js';
-import Map1 from './Map1.js';
-import React from 'react';
-import Props1 from './Props1.js'
-import img1 from './img1.jpg'
-import img2 from './img2.jpg'
-import Main from './Main.js'
-
+// import Map1 from './Map1.js';
+// import React from 'react';
+// import Props1 from './Props1.js'
+// import img1 from './img1.jpg'
+// import img2 from './img2.jpg'
+// import Main from './Main.js'
+import Hooks from './Hooks.js';
 // import Event3 from './Event3.js';
 
 // import Event2 from './Event2.js';
@@ -193,7 +193,34 @@ return (
   
 
   
-function App() {
-  return ( <Main/>   );
-}export default App;
+// function App() {
+//   return ( <Main/>   );
+// }export default App;
   
+
+
+//Hooks new ch-7
+//task-1 for hook  
+
+// function App() {
+//   return (<div><Hooks/></div>)
+// }
+// export default App;
+
+// task-2
+
+// function App() {
+//   return(<div className='App'>
+//   <Hooks/> </div>
+//   )
+// }
+// export default App;
+
+// taslk-3
+
+function App() {
+  return(<div >
+  <Hooks/> </div>
+  )
+}
+export default App;
