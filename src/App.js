@@ -9,13 +9,24 @@
 // import img1 from './img1.jpg'
 // import img2 from './img2.jpg'
 // import Main from './Main.js'
-import Hooks from './Hooks.js';
+
+import React from 'react';
+import Axios from './Axios.js';
+
+// import MyForm from './MyForm.js';
+
+// import UC1 from './UC1.js';
+
+// import UE1 from './UE1.js';
+
+// import Task from './task';
+// import Hooks from './Hooks.js';
 // import Event3 from './Event3.js';
 
 // import Event2 from './Event2.js';
 
 // import Event1 from './Event1.js'
- {/*  function App() {
+ /*  function App() {
 return (
     <div className="App">
      <header className="App-header">
@@ -46,13 +57,13 @@ return (
       
   );
 }
-          */}
-{/* <Image/> */}
+          */
+/* <Image/> */
 
 
 
-{/* day-2 Props 
-*/}
+/* day-2 Props 
+*/
 // task-1
 
 // function App(){
@@ -218,9 +229,51 @@ return (
 
 // taslk-3
 
+// function App() {
+//   return(<div >
+//   <Hooks/> </div>
+//   )
+// }
+// export default App;
+
+
+
+
+// function App() {
+//     return (
+//         <div>
+//             <Task/>
+//         </div>
+//     );
+// }
+
+// export default App;
+
+
+
+// function App() {
+//     return (
+//         <div>
+//             <UC1/>
+//         </div>
+//     );
+// }
+// export default App;
+
+// function App() {
+//   return (
+//       <div>
+//           <UE1/>
+//       </div>
+//   );
+// }
+// export default App;
+
 function App() {
-  return(<div >
-  <Hooks/> </div>
-  )
+  return (
+      <div>
+          <Axios/>
+      </div>
+  );
 }
 export default App;

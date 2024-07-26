@@ -148,23 +148,23 @@ import React, { useState } from 'react';
 //         </div>
 //     )
 // }
-function Button() {
-    const [showText, setShowText] = useState(false);
-    const [style, setStyle] = useState('red')
-    const [buttonText, setButtonText] = useState('Show');
+// function Button() {
+//     const [showText, setShowText] = useState(false);
+//     const [style, setStyle] = useState('red')
+//     const [buttonText, setButtonText] = useState('Show');
 
-    function handleClick() {
-        setShowText(!showText);
-        setButtonText(showText ? 'Show' : 'Hide');
-        setStyle('blue')
-    };
+//     function handleClick() {
+//         setShowText(!showText);
+//         setButtonText(showText ? 'Show' : 'Hide');
+//         setStyle('blue')
+//     };
 
-    return (
-        <div>
-            <button style={{backgroundColor:style}} onClick={handleClick}>{buttonText}</button>
-            {showText && <p>This is the text that will be shown or hidden</p>}
-        </div>
-    );
-}
+//     return (
+//         <div>
+//             <button style={{backgroundColor:style}} onClick={handleClick}>{buttonText}</button>
+//             {showText && <p>This is the text that will be shown or hidden</p>}
+//         </div>
+//     );
+// }
 
-export default Button;
+// export default Button;
